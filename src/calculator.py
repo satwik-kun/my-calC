@@ -2,7 +2,7 @@
 Calculator Module - Basic arithmetic operations
 Students will extend this with more functions
 """
-
+import math
 def add(a, b):
     """Add two numbers together"""
     return a + b
@@ -34,7 +34,6 @@ def divide(a, b):
     return result
 
 # Power and square root functions
-import math
 
 def power(a, b):
     """Raise a to the power of b."""

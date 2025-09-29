@@ -69,6 +69,7 @@ class TestMultiplyDivide:
     def test_divide_by_zero(self):
         with pytest.raises(ValueError, match="division by zero is undefined"):
             divide(5, 0)
+        assert divide(0, 5) == 0
 
 # Test power and sqrt operations
 class TestPowerSqrt:
